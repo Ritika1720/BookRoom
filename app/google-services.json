@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1036884845128",
+    "project_id": "bookroom-fc835",
+    "storage_bucket": "bookroom-fc835.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036884845128:android:eafffb9dff1ae1c300ee7d",
+        "android_client_info": {
+          "package_name": "com.example.bookhub2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036884845128-4f9ulfd68vjl32noot2cod846a4d5olp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCff0xfy-i6Poxm1byglelDeE8pUWLvl0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036884845128-4f9ulfd68vjl32noot2cod846a4d5olp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

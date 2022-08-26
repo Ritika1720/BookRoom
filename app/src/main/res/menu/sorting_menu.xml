@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/sorting"
+    android:title="Sorting"
+    app:showAsAction="ifRoom"
+    android:icon="@drawable/ic_filter"
+    >
+    <menu>
+    <item
+          android:id="@+id/byPriceHL"
+          android:title="By Price(HIGH-LOW)"
+
+        />
+    <item
+        android:id="@+id/byPriceLH"
+        android:title="By Price(LOW-HIGH)"
+
+        />
+      <item
+          android:id="@+id/byRating"
+          android:title="By Rating"
+          />
+    <item
+        android:id="@+id/byName"
+        android:title="By Name"
+        />
+    </menu>
+</item>
+
+
+</menu>

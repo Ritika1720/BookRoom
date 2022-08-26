@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.DashboardFragment">
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:background="@color/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <RelativeLayout
+        android:id="@+id/progressLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/progressBar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:lottie_loop="true"
+            android:layout_centerInParent="true"
+            app:lottie_rawRes="@raw/loader"
+            app:lottie_autoPlay="true"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/noConnection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone"
+        >
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/women"
+            android:tint="#ffffff"
+            android:layout_width="175dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="180dp"
+            app:lottie_loop="true"
+            android:layout_centerHorizontal="true"
+            app:lottie_rawRes="@raw/no_connection"
+            app:lottie_autoPlay="true"
+            />
+        <TextView
+            android:layout_below="@+id/women"
+            android:id="@+id/txtNet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="NO INTERNET CONNECTION"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_margin="12dp"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Book Room</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favorites">Favorites</string>
+    <string name="profile">Profile</string>
+    <string name="about_app">About App</string>
+    <string name="open_drawer">Open_Drawer</string>
+    <string name="close_drawer">Close_Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash">Splash</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="whatsapp"><a href="https://wa.me/+918292625628?text=Hii%20Ritika">WHATSAPP Account</a></string>
+    <string name="gmail"><a href="mailto:ritikaraawa8292@gmail.com">GMAIL Account</a></string>
+</resources>
